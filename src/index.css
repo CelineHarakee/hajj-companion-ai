@@ -8,35 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 42 23% 97%;
+    --foreground: 156 28% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 156 28% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 156 28% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 158 64% 32%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 93% 47%;
+    --secondary-foreground: 156 28% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 42 23% 92%;
+    --muted-foreground: 156 12% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 158 45% 89%;
+    --accent-foreground: 156 28% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 42 23% 88%;
+    --input: 42 23% 88%;
+    --ring: 158 64% 32%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Islamic design tokens */
+    --islamic-green: 158 64% 32%;
+    --islamic-gold: 45 93% 47%;
+    --islamic-light: 42 23% 97%;
+    --islamic-cream: 42 23% 92%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(158 64% 32% / 0.95), hsl(158 64% 22% / 0.95));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(42 23% 97%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(158 64% 32% / 0.08);
+    --shadow-medium: 0 8px 30px hsl(158 64% 32% / 0.12);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +73,47 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 156 28% 8%;
+    --foreground: 42 23% 97%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 156 28% 12%;
+    --card-foreground: 42 23% 97%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 156 28% 12%;
+    --popover-foreground: 42 23% 97%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 158 64% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 45 93% 47%;
+    --secondary-foreground: 156 28% 8%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 156 28% 18%;
+    --muted-foreground: 42 23% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 158 45% 22%;
+    --accent-foreground: 42 23% 97%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 156 28% 18%;
+    --input: 156 28% 18%;
+    --ring: 158 64% 45%;
+    
+    /* Islamic design tokens - dark mode */
+    --islamic-green: 158 64% 45%;
+    --islamic-gold: 45 93% 47%;
+    --islamic-light: 156 28% 8%;
+    --islamic-cream: 156 28% 18%;
+    
+    /* Gradients - dark mode */
+    --gradient-hero: linear-gradient(135deg, hsl(158 64% 22% / 0.95), hsl(158 64% 12% / 0.95));
+    --gradient-card: linear-gradient(180deg, hsl(156 28% 12%), hsl(156 28% 8%));
+    
+    /* Shadows - dark mode */
+    --shadow-soft: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 8px 30px hsl(0 0% 0% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
