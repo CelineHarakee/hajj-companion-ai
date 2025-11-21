@@ -15,7 +15,7 @@
  
 ## Project Description
 
-The **Hajj & Umrah AI Assistant** is an AI-powered chatbot designed to assist pilgrims during their spiritual journey of Hajj and Umrah. The assistant combines **Large Language Models (LLMs)** with **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware guidance on religious rituals, logistics, and spiritual preparation.
+The **Hajj Companion AI** is an AI-powered chatbot designed to assist pilgrims during their spiritual journey of Hajj and Umrah. The assistant combines **Large Language Models (LLMs)** with **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware guidance on religious rituals, logistics, and spiritual preparation.
 
 The project leverages **Lovable** for the web interface, offering a user-friendly platform for pilgrims to interact with the assistant. The system uses **LLMs** to generate conversational responses, while **RAG** ensures that answers are backed by authentic Islamic sources, providing both real-time guidance and support.
 
@@ -77,7 +77,7 @@ Here’s a breakdown of the main files used in this project:
 ## Tools Used
 
 1. **Lovable**
-  - **Description**: a platform used for building responsive web applications. It is used in this project to create the user interface of the **Hajj & Umrah AI Assistant**. The web interface is designed to be accessible on both mobile and desktop devices, ensuring a smooth user experience for pilgrims.
+  - **Description**: a platform used for building responsive web applications. It is used in this project to create the user interface of the **Hajj Companion AI**. The web interface is designed to be accessible on both mobile and desktop devices, ensuring a smooth user experience for pilgrims.
   - **Role**: Used to build the web-based chat interface where users interact with the AI assistant. The platform ensures an easy-to-use, scalable design.
 
 2. **Supabase**
