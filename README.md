@@ -12,6 +12,8 @@
 
 6. [Team Members](#team-members)
 
+7. [View the Website](#view-the-website) 
+
  
 ## Project Description
 
@@ -186,5 +188,5 @@ The **Hajj & Umrah AI Assistant** offers several key benefits that enhance the e
 4. **Sana Salmo** – **Data Scientist and Dataset Preparation**  
   - Handled the data collection and preparation for the AI model, ensuring that the knowledge base of Hajj and Umrah was accurate and comprehensive.
 
-### View the Website
+## View the Website
 [https://hajjbuddy-ai.lovable.app](https://hajjbuddy-ai.lovable.app)
