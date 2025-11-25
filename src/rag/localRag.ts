@@ -1,10 +1,6 @@
 // ===============================================
 // Local RAG Engine for Hajj Companion AI
 // ===============================================
-// This file implements a lightweight Retrieval-Augmented Generation (RAG)
-// pipeline using a local knowledge base. It does not replace Lovable’s backend,
-// but demonstrates the logic of retrieval inside the GitHub project.
-// ===============================================
 
 export interface HajjKnowledgeItem {
   id: string;
