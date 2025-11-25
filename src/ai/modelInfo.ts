@@ -1,11 +1,3 @@
-// ======================================================================
-// Local LLM Client for Hajj Companion AI
-// ======================================================================
-// This file simulates a real LLM integration inside the project.
-// In real deployments, the API key would be stored in an environment
-// variable and the request would be sent directly to the model provider.
-// ======================================================================
-
 const API_KEY = import.meta.env.VITE_LOCAL_LLM_API_KEY || "YOUR_LLM_API_KEY_HERE";
 
 export const LLM_CONFIG = {
